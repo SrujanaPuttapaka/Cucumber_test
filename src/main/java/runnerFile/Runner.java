@@ -6,7 +6,7 @@ import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(features="C:\\Users\\sputtapaka\\MyEclispse\\Cucumber_test\\src\\main\\java\\Features"
-,glue= {"stepsDefination"}, format= {"pretty","html:test-output"},dryRun=false )
+,glue= {"stepsDefination"}, format= {"pretty","html:test-output"},dryRun=false)
 public class Runner {
 
 }

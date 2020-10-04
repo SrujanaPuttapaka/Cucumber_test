@@ -1,4 +1,4 @@
-Feature: Login feature
+#Feature: Login feature
 
 #type-1
 
@@ -59,17 +59,30 @@ Feature: Login feature
 
 #type-5 using maps
 
-Scenario: Successful login scenairo
-Given User is on login page
-When Tiltle of home page is facebookpage
-Then User enters user email
- | email |
- | srujanap95@gmail.com |
-And User enters pass pwd
- | pwd |
- | chinnisrujuu | 
-Then User clicks login button
-Then User is on home page
-Then User clicks on logout
+#Scenario: Successful login scenairo
+#Given User is on login page
+#When Tiltle of home page is facebookpage
+#Then User enters user email
+# | email |
+# | srujanap95@gmail.com |
+#And User enters pass pwd
+# | pwd |
+# | chinnisrujuu | 
+#Then User clicks login button
+#Then User is on home page
+#Then User clicks on logout
 
+#@first
+#Scenario: Successful login scenairo
+#Given User is on login page
+#When Tiltle of home page is facebookpage
+#Then User enters user email
+# | email |
+# | srujanap1408@gmail.com |
+#And User enters pass pwd
+# | pwd |
+# | chinnisrujuu | 
+#Then User clicks login button
+#Then User is on home page
+#Then User clicks on logout
 
